@@ -1,35 +1,48 @@
-import React, { useState } from 'react';
-import { SafeAreaView, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import React from 'react';
+import { SafeAreaView, 
+         Text, 
+         Image, 
+         TouchableOpacity, 
+         StyleSheet,
+         Dimensions
+        } from 'react-native';
 
 import wateringImg from '../assets/watering.png';
 import colors from '../styles/colors';
-import { Button } from '../components/button';
+
 
 export function Welcome(){
-    const [ visible, setVisible] = useState(false) //Enquanto uma função não for criada, dará erro.
-
-    function handleVisible(){
-        setVisible(true)
-    }
+    
+    //const [ visible, setVisible] = useState(false) .Enquanto uma função não for criada, dará erro. 
     return(
         <SafeAreaView style={styles.container}>
           <Text style={styles.title}>
               Gerencie {'\n'} as suas plantas {'\n'} de forma fácil
           </Text>
 
-      
-          <Image source={wateringImg}  style={styles.image}/>
-                                                                
+          
+          <Image 
+          source={wateringImg}  
+          style={styles.image}
+          resizeMode="contain"
+          />
+       
 
           <Text style={styles.subtitle}>
               Não esqueça mais de regar as suas plantas. {'\n'}
               Nós cuidamos de lembrar você sempre que precisar.
           </Text>
-
-          <Button title=">"/>
+           
+            <TouchableOpacity 
+             style={styles.button} 
+             activeOpacity={0.7}
+              
+        >
+            <Text style={styles.buttonText}>
+                       >
+            </Text>
+           </TouchableOpacity>
           
-          
-
         </SafeAreaView>
     )
 }
@@ -38,8 +51,10 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'space-between'
-    },
+        justifyContent: 'space-around'
+    }, 
+    
+    // trocamos o between por around para que não haja aproximação com as bordas.
 
     title: {
         fontSize: 32,
@@ -56,6 +71,11 @@ const styles = StyleSheet.create({
         color: colors.heading
     },
 
+    image: {
+        height: Dimensions.get('window').width * 0.7,
+        width: Dimensions.get('window').height * 0.7
+    },
+
     button: {
         backgroundColor: colors.green,
         justifyContent: 'center',
@@ -63,12 +83,8 @@ const styles = StyleSheet.create({
         borderRadius: 16,
         marginBottom: 16, 
         height: 56,
-        paddingHorizontal: 10
-    },
-
-    image: {
-        width: 292,
-        height: 284
+        width: 56
+        
     },
 
     buttonText: { 
