@@ -1,21 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+//Toda interface no react começa com uma importação do react
 
-export default function App() {
+import React from 'react';
+import { Welcome } from './src/pages/Welcome';
+
+
+
+export default function App(){
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+     
+     <Welcome />
+  )
+    
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
+/* - Essa é a base de uma interface react native 
+   - É regra do react retornar apenas um elemento, como alternativa temos o "Fragment"
+    <> </>  ou usa uma view. 
+*/
