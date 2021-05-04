@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="780001f1-98d0-445c-8a29-a09007e1d00d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/adaptive-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/adaptive-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/clara.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EnviromentButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/server.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Confirmation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Confirmation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PlantSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PlantSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserIdentificatiton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserIdentificatiton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Welcome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/stack.routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/stack.routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +30,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,15 +53,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="120" y="143" width="1200" height="568" key="AVDManager" timestamp="1619097440955">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="140" y="145" width="1200" height="559" key="AVDManager" timestamp="1620002435153">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="140" y="145" width="1200" height="559" key="AVDManager/0.23.1440.797@0.23.1440.797" timestamp="1620002435153" />
     <state x="120" y="143" width="1200" height="568" key="AVDManager/0.23.1440.808@0.23.1440.808" timestamp="1619097050327" />
     <state x="120" y="143" width="1200" height="568" key="AVDManager/0.23.1440.811@0.23.1440.811" timestamp="1619097440955" />
     <state x="120" y="143" width="1200" height="568" key="AVDManager/0.23.1440.812@0.23.1440.812" timestamp="1619059701124" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1619053335265">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1619802858512">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1619802858512" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1619052518442" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1619053335265" />
     <state x="385" y="194" key="run.anything.popup" timestamp="1619053341461">

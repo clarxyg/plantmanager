@@ -38,7 +38,7 @@ export function Welcome(){
 
           <Text style={styles.subtitle}>
               Não esqueça mais de regar as suas plantas. {'\n'}
-              Nós cuidamos de lembrar você sempre que precisar.
+             Nós cuidamos de lembrar sempre que precisar.
           </Text>
            
             <TouchableOpacity 
@@ -78,7 +78,6 @@ const styles = StyleSheet.create({
     
     title: {
         fontSize: 28,
-        fontWeight: 'bold',
         textAlign: 'center',
         color: colors.heading,
         marginTop: 38,
@@ -88,15 +87,15 @@ const styles = StyleSheet.create({
 
     subtitle: {
         textAlign: 'center',
-        fontSize: 18,
+        fontSize: 16.5,
         paddingHorizontal: 20,
         color: colors.heading,
         fontFamily: fonts.text
     },
 
     image: {
-        height: Dimensions.get('window').width * 0.7,
-        width: Dimensions.get('window').height * 0.5
+        height: Dimensions.get('window').width * 0.7
+        
         
     },
 
